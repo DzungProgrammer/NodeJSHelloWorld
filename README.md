@@ -1,2 +1,0 @@
-# NodeJSHelloWorld
-Created with CodeSandbox
