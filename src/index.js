@@ -58,7 +58,7 @@ app.post("/fibo", function(req, res) {
     result.push(b);
   }
 
-  res.send("something");
+  res.send(result);
 });
 
 app.listen(8080, function() {
