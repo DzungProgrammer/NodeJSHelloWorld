@@ -35,7 +35,7 @@ app.post("/calc", function(req, res) {
 });
 
 app.get("/fibo", function(req, res) {
-  var formular = "<form action='/fic' method='post'>";
+  var formular = "<form action='/fibo' method='post'>";
   formular += "<input type='text' name='num1' placeholder='Velikost řady' />";
   formular += "<button type='submit' name='submit'>Kalkuluj!</button>";
   formular += "</form>";
